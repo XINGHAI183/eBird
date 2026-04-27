@@ -1,0 +1,22 @@
+<view class="container">
+  <view class="header">
+    <text class="title">鸟类保护</text>
+  </view>
+  
+  <view class="content">
+    <view class="card">
+      <text class="card-title">保护知识</text>
+      <text class="card-desc">内容待填充</text>
+    </view>
+    
+    <view class="card">
+      <text class="card-title">保护活动</text>
+      <text class="card-desc">内容待填充</text>
+    </view>
+    
+    <view class="card">
+      <text class="card-title">志愿者招募</text>
+      <text class="card-desc">内容待填充</text>
+    </view>
+  </view>
+</view>

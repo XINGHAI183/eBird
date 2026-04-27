@@ -1,0 +1,22 @@
+<view class="container">
+  <view class="header">
+    <text class="title">个人中心</text>
+  </view>
+  
+  <view class="content">
+    <view class="card">
+      <text class="card-title">我的收藏</text>
+      <text class="card-desc">内容待填充</text>
+    </view>
+    
+    <view class="card">
+      <text class="card-title">浏览记录</text>
+      <text class="card-desc">内容待填充</text>
+    </view>
+    
+    <view class="card">
+      <text class="card-title">设置</text>
+      <text class="card-desc">内容待填充</text>
+    </view>
+  </view>
+</view>
