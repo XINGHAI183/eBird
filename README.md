@@ -51,7 +51,8 @@ eBird/
 ## 联系方式
 
 - 作者: XINGHAI183
-- 邮箱/微信: （请填写）
+- 邮箱: majiangge2022@outlook.com
+- 微信: wx18310380731
 
 ## License
 
