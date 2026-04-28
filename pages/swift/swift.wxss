@@ -1,7 +1,7 @@
 .container {
   padding: 20rpx;
   min-height: 100vh;
-  background-color: #f5f5f5;
+  background-color: #EBEBEB;
 }
 
 .header {
@@ -12,7 +12,7 @@
 .title {
   font-size: 48rpx;
   font-weight: bold;
-  color: #1565C0;
+  color: #4A4E63;
 }
 
 .content {

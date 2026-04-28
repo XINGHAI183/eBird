@@ -1,3 +1,5 @@
 {
-  "navigationBarTitleText": "北京雨燕"
+  "navigationBarTitleText": "eBird",
+  "navigationBarTextStyle": "black",
+  "navigationBarBackgroundColor": "#FFFFFF"
 }
