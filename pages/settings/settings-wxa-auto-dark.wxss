@@ -1,0 +1,44 @@
+@media (prefers-color-scheme: dark) {
+    .container {
+        background-color: rgb(42, 42, 42);
+    }
+
+    .title {
+        color: rgb(171, 175, 199);
+    }
+
+    .section {
+        background-color: rgb(17, 17, 17);
+    }
+
+    .section-title {
+        color: rgb(209, 209, 209);
+    }
+
+    .radio-item {
+        color: rgb(209, 209, 209);
+    }
+
+    .loading-container {
+        background-color: rgb(42, 42, 42);
+    }
+
+    .loading-spinner {
+        border: 6rpx solid rgb(64, 64, 64);
+        border-top: 6rpx solid rgb(171, 175, 199);
+    }
+
+    .loading-text {
+        color: rgb(171, 175, 199);
+    }
+
+    @keyframes spin {
+        0% {
+            transform: rotate(0deg);
+        }
+
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+}

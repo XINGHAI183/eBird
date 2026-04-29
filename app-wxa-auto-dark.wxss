@@ -1,0 +1,5 @@
+@media (prefers-color-scheme: dark) {
+    page {
+        background-color: rgb(42, 42, 42); /* 对应 #2a2a2a */
+    }
+}

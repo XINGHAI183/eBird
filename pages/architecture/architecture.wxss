@@ -1,7 +1,7 @@
 .container {
   padding: 20rpx;
   min-height: 100vh;
-  background-color: #EBEBEB;
+  background-color: #E0E0E0;
 }
 
 .header {
@@ -75,3 +75,5 @@
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
 }
+
+@import 'architecture-wxa-auto-dark.wxss'

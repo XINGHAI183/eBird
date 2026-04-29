@@ -19,7 +19,7 @@
   padding: 20rpx 0;
 }
 
-.card {
+.section {
   background-color: #ffffff;
   border-radius: 16rpx;
   padding: 30rpx;
@@ -27,18 +27,36 @@
   box-shadow: 0 2rpx 10rpx rgba(0, 0, 0, 0.1);
 }
 
-.card-title {
+.section-title {
   display: block;
   font-size: 32rpx;
   font-weight: bold;
   color: #333333;
-  margin-bottom: 16rpx;
+  margin-bottom: 20rpx;
 }
 
-.card-desc {
-  display: block;
+.radio-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.radio-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20rpx;
   font-size: 28rpx;
+  color: #333333;
+}
+
+.radio-item radio {
+  margin-right: 10rpx;
+}
+
+.section-note {
+  display: block;
+  font-size: 24rpx;
   color: #999999;
+  margin-top: 20rpx;
 }
 
 /* 加载动画样式 */
@@ -52,7 +70,7 @@
   position: fixed;
   top: 0;
   left: 0;
-  background-color: #EBEBEB;
+  background-color: #E0E0E0;
   z-index: 10000;
 }
 
@@ -76,4 +94,4 @@
   100% { transform: rotate(360deg); }
 }
 
-@import 'swift-wxa-auto-dark.wxss'
+@import 'settings-wxa-auto-dark.wxss'

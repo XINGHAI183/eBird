@@ -3,14 +3,19 @@
     "pages/home/home",
     "pages/swift/swift",
     "pages/architecture/architecture",
-    "pages/profile/profile"
+    "pages/profile/profile",
+    "pages/settings/settings"
   ],
   "window": {
     "navigationBarBackgroundColor": "#FFFFFF",
     "navigationBarTitleText": "eBird",
     "navigationBarTextStyle": "black",
-    "backgroundColor": "#EBEBEB"
+    "backgroundColor": "#E0E0E0",
+    "enablePullDownRefresh": false,
+    "backgroundTextStyle": "dark"
   },
+  "darkmode": true,
+  "themeLocation": "theme.json",
   "tabBar": {
     "custom": true,
     "color": "#555555",

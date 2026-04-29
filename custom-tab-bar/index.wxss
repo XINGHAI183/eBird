@@ -25,3 +25,5 @@
 .tab-bar-item.active .tab-text {
   font-weight: bold;
 }
+
+@import 'custom-tab-bar-wxa-auto-dark.wxss'

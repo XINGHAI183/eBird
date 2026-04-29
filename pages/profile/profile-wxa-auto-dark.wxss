@@ -1,0 +1,48 @@
+@media (prefers-color-scheme: dark) {
+    .container {
+        background-color: rgb(42, 42, 42);
+    }
+
+    .title {
+        color: rgb(171, 175, 199);
+    }
+
+    .card {
+        background-color: rgb(17, 17, 17);
+    }
+
+    .card-title {
+        color: rgb(209, 209, 209);
+    }
+
+    .card-desc {
+        color: rgb(99, 99, 99);
+    }
+
+    .loading-container {
+        background-color: rgb(31, 31, 31);
+    }
+
+    .loading-text {
+        color: rgb(200, 200, 200);
+    }
+
+    .loading-spinner {
+        border: 6rpx solid rgb(64, 64, 64);
+        border-top: 6rpx solid rgb(171, 175, 199);
+    }
+
+    .loading-text {
+        color: rgb(171, 175, 199);
+    }
+
+    @keyframes spin {
+        0% {
+            transform: rotate(0deg);
+        }
+
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+}

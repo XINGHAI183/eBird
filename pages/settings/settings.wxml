@@ -1,0 +1,21 @@
+<view class="container">
+  <view class="header">
+    <text class="title">设置</text>
+  </view>
+  
+  <view class="content">
+    <!-- 主题设置 -->
+    <view class="section">
+      <text class="section-title">主题设置</text>
+      
+      <radio-group class="radio-group" bindchange="onThemeChange">
+        <label class="radio-item" wx:for="{{themes}}" wx:key="value">
+          <radio value="{{item.value}}" checked="{{item.checked}}"/>
+          <text>{{item.name}}</text>
+        </label>
+      </radio-group>
+      
+      <text class="section-note">该功能暂不可用</text>
+    </view>
+  </view>
+</view>

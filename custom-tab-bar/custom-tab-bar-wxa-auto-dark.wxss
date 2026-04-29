@@ -1,0 +1,13 @@
+@media (prefers-color-scheme: dark) {
+    .tab-bar {
+        background: #000000; /* 纯黑色 */
+    }
+
+    .tab-text {
+        color: rgb(150, 150, 150);
+    }
+
+    .tab-bar-item.active .tab-text {
+        color: rgb(171, 175, 199);
+    }
+}
