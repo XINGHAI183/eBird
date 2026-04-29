@@ -40,3 +40,38 @@
   font-size: 28rpx;
   color: #999999;
 }
+
+/* 加载动画样式 */
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: calc(100vh - 110rpx);
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #EBEBEB;
+  z-index: 10000;
+}
+
+.loading-spinner {
+  width: 80rpx;
+  height: 80rpx;
+  border: 6rpx solid #E0E0E0;
+  border-top: 6rpx solid #4A4E63;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+.loading-text {
+  margin-top: 30rpx;
+  font-size: 28rpx;
+  color: #4A4E63;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

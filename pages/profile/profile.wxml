@@ -1,4 +1,9 @@
-<view class="container">
+<view wx:if="{{isLoading}}" class="loading-container">
+  <view class="loading-spinner"></view>
+  <text class="loading-text">加载中...</text>
+</view>
+
+<view wx:else class="container">
   <view class="header">
     <text class="title">个人中心</text>
   </view>
