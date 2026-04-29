@@ -27,6 +27,23 @@ Component({
       const data = e.currentTarget.dataset;
       const url = data.path;
       wx.switchTab({ url });
+    },
+    updateNavigationBar(title = 'eBird') {
+      wx.setNavigationBarTitle({
+        title: title
+      });
+      wx.setNavigationBarColor({
+        frontColor: '#000000',
+        backgroundColor: '#FFFFFF',
+        animation: {
+          duration: 0,
+          timingFunc: 'linear'
+        }
+      });
     }
+  },
+  attached() {
+    // 组件挂载时确保导航栏配置
+    this.updateNavigationBar();
   }
 });

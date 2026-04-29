@@ -8,6 +8,12 @@ Page({
       this.getTabBar().setData({
         selected: 3
       });
+      this.getTabBar().updateNavigationBar();
+    }
+  },
+  onTabItemTap() {
+    if (typeof this.getTabBar === 'function' && this.getTabBar()) {
+      this.getTabBar().updateNavigationBar();
     }
   }
 })
