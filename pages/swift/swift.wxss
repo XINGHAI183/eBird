@@ -5,8 +5,8 @@
 }
 
 .header {
-  padding: 40rpx 0;
-  text-align: center;
+  padding: 40rpx 20rpx;
+  text-align: left;
 }
 
 .title {
